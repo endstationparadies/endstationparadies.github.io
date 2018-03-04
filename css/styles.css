@@ -1,0 +1,37 @@
+body {
+    background: black;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1.2em;
+}
+
+header {
+    margin-bottom: 3em;
+}
+
+section {
+    font-size: 0.9em;
+    max-width: 30em;
+    margin: 0 auto;
+}
+
+section p {
+    text-align: left;
+}
+
+
+h1, h2 {
+    background: -webkit-linear-gradient(white, #38495a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+a:visited {
+    color: #00f;
+}
+
+a:visited {
+    color: #a0f;
+}
+
