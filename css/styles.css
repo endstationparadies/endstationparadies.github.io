@@ -7,19 +7,33 @@ body {
 }
 
 header {
-    margin-bottom: 3em;
+    margin-bottom: 1em;
+    padding: 0 1em;
 }
 
 section {
+    padding: 0 1em;
+}
+
+section.subheader {
+    margin-bottom: 3em;
+}
+
+section.history {
     font-size: 0.9em;
     max-width: 30em;
     margin: 0 auto;
 }
 
-section p {
-    text-align: left;
+@media (max-width: 1000px) {
+    section.history {
+        max-width: none;
+    }
 }
 
+section.history p {
+    text-align: left;
+}
 
 h1, h2 {
     background: -webkit-linear-gradient(white, #38495a);
@@ -27,11 +41,11 @@ h1, h2 {
     -webkit-text-fill-color: transparent;
 }
 
-a:visited {
-    color: #00f;
+a {
+    color: #4af;
 }
 
 a:visited {
-    color: #a0f;
+    color: #a4f;
 }
 
